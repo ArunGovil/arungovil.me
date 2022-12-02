@@ -1,18 +1,18 @@
 import Head from "next/head";
-import { Hero } from "../components";
+import { About } from "../components";
 import AppLayout from "../layouts";
 
-export default function App() {
+export default function AboutMe() {
   return (
     <div>
       <Head>
-        <title>Arun Govil</title>
+        <title>Arun Govil / About</title>
         <meta name="description" content="jack of all commands" />
         <link rel="icon" href="/img/frame.png" />
       </Head>
       <main className="flex flex-col items-center">
         <AppLayout showSearch={false}>
-          <Hero />
+          <About />
         </AppLayout>
       </main>
     </div>
