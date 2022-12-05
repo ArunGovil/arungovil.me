@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Icon from "./Icon";
 
 interface ProjectCardProps {
   title: string;
@@ -16,7 +17,10 @@ export default function ProjectCard({
   return (
     <a href={url}>
       <div className="rounded-md h-24 flex p-2 items-center hover:bg-gray-900 hover:bg-opacity-40">
-        <Image src={icon} alt={title} className="w-10 ml-4 mr-4" />
+        <Icon
+          nameIcon={icon}
+          propsIcon={{ size: "2rem", className: "mr-4 ml-4" }}
+        />
         <div>
           <p>{title} </p>
           <p className="font-thin text-slate-200">{description} </p>

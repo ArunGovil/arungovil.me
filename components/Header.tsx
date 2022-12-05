@@ -27,12 +27,12 @@ export const technology = [
 ];
 
 export default function Header() {
-  const logo = require("../public/img/favicon.svg");
+  const logo = require("../public/img/frame.png");
   const router = useRouter();
   return (
     <nav className="flex justify-between p-4 items-center  w-full max-w-5xl">
       <Link href="/">
-        <Image src={logo} alt="cmdr" className="w-8 rounded-full" />
+        <Image src={logo} alt="cmdr" className="w-8 " />
       </Link>
 
       <div className="flex flex-col justify-center items-center w-full max-w-5xl">
