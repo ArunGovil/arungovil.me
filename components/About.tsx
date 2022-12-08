@@ -10,17 +10,17 @@ export default function About() {
         <p className="text-2xl">Professional Google Searcher</p>
       </div>
       <p className="mt-4 font-thin leading-7">
-        Hey there, I'm hobbyist developer and designer with love for minimalist
-        design and meaningful experience.
+        Hey there, I&apos;m hobbyist developer and designer with love for
+        minimalist design and meaningful experience.
         <br />
         <br />
-        Currently fixing bugs at my{" "}
+        Currently fixing bugs at{" "}
         <a href="https://www.strebentechnik.com">
-          <b>workpalce</b>
+          <b>Streben</b>
         </a>
-        , where I’m actively involved in frontend development using frameworks
-        like <b>ReactJs,</b> <b>NuxtJs,</b> <b>React Native</b> etc. In my free
-        time I love building{" "}
+        , where I&apos;m actively involved in frontend development using
+        frameworks like <b>ReactJs,</b> <b>NuxtJs,</b> <b>React Native</b> etc.
+        In my free time I love building{" "}
         <Link href="/projects">
           <b>hobby projects</b>
         </Link>{" "}
@@ -28,8 +28,8 @@ export default function About() {
         <br />
         <br />
         For most of my design work, I use <b>Figma</b> and <b>Photopea</b>.
-        Apart from coding, I love to sleep, read and explore all new interesting
-        stuff going around so as to keep myself up to date.
+        Apart from coding, I love to sleep, read and explore new stuff going
+        around!
       </p>
       <p className="mt-8 font-thin">
         Find me on{" "}

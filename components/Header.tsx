@@ -30,12 +30,12 @@ export default function Header() {
   const logo = require("../public/img/frame.png");
   const router = useRouter();
   return (
-    <nav className="flex justify-between p-4 items-center  w-full max-w-5xl">
+    <nav className="flex justify-between p-4 items-center  w-full max-w-4xl">
       <Link href="/">
         <Image src={logo} alt="cmdr" className="w-8 " />
       </Link>
 
-      <div className="flex flex-col justify-center items-center w-full max-w-5xl">
+      <div className="flex flex-col justify-center items-center w-full max-w-4xl">
         <nav>
           <ul className="flex">
             {technology.map((item) => (
@@ -44,7 +44,7 @@ export default function Header() {
                 key={item.id}
                 className={
                   item.path == router.pathname
-                    ? "cursor-pointer p-2 mr-2 border-b-2 border-yellow-400"
+                    ? "cursor-pointer p-2 mr-2 border-b-2 border-gray-700"
                     : "cursor-pointer p-2 mr-2 border-none"
                 }
               >

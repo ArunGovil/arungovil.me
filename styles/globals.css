@@ -6,9 +6,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #000000;
+  background-color: #202023;
   font-family: Ubuntu, sans-serif;
-  color: #ffffff;
+  color: #ededed;
 }
 
 * {
