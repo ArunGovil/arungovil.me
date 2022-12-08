@@ -44,7 +44,7 @@ export default function Header() {
                 key={item.id}
                 className={
                   item.path == router.pathname
-                    ? "cursor-pointer p-2 mr-2 border-b-2 border-gray-700"
+                    ? "cursor-pointer p-2 mr-2 border-b-2 border-orange-400"
                     : "cursor-pointer p-2 mr-2 border-none"
                 }
               >

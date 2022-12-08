@@ -1,9 +1,11 @@
 import Head from "next/head";
 import { ProjectCard } from "../components";
 import AppLayout from "../layouts";
-import { ProjectsData } from "../json/Projects";
+import { ProjectsData } from "../content/Projects";
+import { useState } from "react";
 
 export default function Projects() {
+  const [data, setData] = useState(ProjectsData.reverse());
   return (
     <div>
       <Head>
@@ -16,7 +18,7 @@ export default function Projects() {
           <div className="flex flex-col justify-center p-4 w-full max-w-3xl mt-12">
             <p className="text-2xl">Projects</p>
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {ProjectsData.map((item) => {
+              {data.map((item) => {
                 return (
                   <ProjectCard
                     key={item.id}

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ProjectCard } from "../components";
 import AppLayout from "../layouts";
-import { BlogsData } from "../json/Blogs";
+import { BlogsData } from "../content/Blogs";
 
 export default function Blog() {
   return (

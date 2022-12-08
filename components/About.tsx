@@ -43,7 +43,7 @@ export default function About() {
           <b> LinkedIn</b>
         </a>{" "}
         <br /> Mail me at{" "}
-        <a>
+        <a href="mailto:arungovil@proton.me">
           <b>arungovil@pm.me.</b>
         </a>
       </p>
