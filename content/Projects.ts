@@ -57,6 +57,13 @@ export const ProjectsData = [
   },
   {
     id: 9,
+    title: "React Native Flatboard",
+    description: "React Native onboarding component",
+    url: "https://github.com/ArunGovil/react-native-flatboard",
+    icon: "TfiBlackboard",
+  },
+  {
+    id: 10,
     title: "cmdr",
     description: "One stop commands directory",
     url: "https://github.com/ArunGovil/cmdr",
