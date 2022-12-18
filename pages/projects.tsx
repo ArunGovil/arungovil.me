@@ -2,10 +2,9 @@ import Head from "next/head";
 import { ProjectCard } from "../components";
 import AppLayout from "../layouts";
 import { ProjectsData } from "../content/Projects";
-import { useState } from "react";
+import { BlogsData } from "../content/Blogs";
 
 export default function Projects() {
-  const [data, setData] = useState(ProjectsData.reverse());
   return (
     <div>
       <Head>
@@ -16,15 +15,15 @@ export default function Projects() {
       <main className="flex flex-col items-center">
         <AppLayout showSearch={false}>
           <div className="flex flex-col justify-center p-4 w-full max-w-2xl mt-12">
-            <div className="mt-4 grid grid-cols-1  gap-4">
-              {data.map((item) => {
+            <p className="text-2xl">Projects</p>
+            <div className="mt-4 grid grid-cols-1 gap-4">
+              {ProjectsData.map((item) => {
                 return (
                   <ProjectCard
                     key={item.id}
                     title={item.title}
                     description={item.description}
                     url={item.url}
-                    icon={item.icon}
                   />
                 );
               })}

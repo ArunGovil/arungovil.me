@@ -44,12 +44,14 @@ export default function Header() {
           </ul>
         </div>
 
-        <div
-          onClick={() => console.log("test")}
-          className="bg-opacity-50 rounded-lg cursor-pointer flex"
+        <a
+          href="https://rb.gy/kn2qta"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-opacity-50 rounded-lg cursor-pointer flex hover:text-white"
         >
           <p>Resume</p>
-        </div>
+        </a>
       </div>
     </nav>
   );

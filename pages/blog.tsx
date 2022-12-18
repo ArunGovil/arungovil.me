@@ -23,7 +23,6 @@ export default function Blog() {
                     title={item.title}
                     description={item.description}
                     url={item.url}
-                    icon={item.icon}
                   />
                 );
               })}

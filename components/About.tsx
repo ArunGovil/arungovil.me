@@ -5,7 +5,8 @@ export default function About() {
   const meme = require("../public/img/badge.png");
   return (
     <div className="flex flex-col p-4 w-full max-w-2xl mt-12">
-      <p className="mt-2 leading-7 text-lg">
+      <p className="text-2xl">Developer | Designer | Tinkerer</p>
+      <p className="mt-4 leading-7 text-lg">
         I&apos;m a hobbyist software developer with love for minimalist design
         and meaningful experience.
         <br />
@@ -13,10 +14,10 @@ export default function About() {
         Currently working at{" "}
         <a href="https://www.strebentechnik.com">Streben</a>, where I&apos;m
         actively involved in frontend development for web and mobile using
-        various Javascript frameworks. Apart from that, ost of my time is spend
+        various Javascript frameworks. Apart from that, most of my time is spend
         on
-        <Link href="/projects"> personal projects</Link> and tinkering around
-        new technologies.
+        <Link href="/projects"> personal projects</Link> and exploring new
+        technologies.
         <br />
         <br />
         For most of the design, I use Figma and Photopea. Apart from coding, I
