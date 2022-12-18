@@ -10,12 +10,11 @@ export const ProjectsData = [
     title: "CMDR",
     description: "One stop directory for frequently used commands",
     url: "https://github.com/ArunGovil/cmdr",
-    icon: "BsTerminal",
   },
   {
     id: 8,
     title: "Personal Website",
-    description: "Dawkins scale of faith visualized",
+    description: "The website you are currently on",
     url: "https://arungovil.me",
   },
   {
