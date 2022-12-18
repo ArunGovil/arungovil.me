@@ -21,6 +21,7 @@ export default function ProjectCard({
           nameIcon={icon}
           propsIcon={{ size: "2rem", className: "mr-4 ml-4" }}
         />
+
         <div>
           <p>{title} </p>
           <p className="font-thin text-slate-200">{description} </p>

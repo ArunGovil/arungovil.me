@@ -5,38 +5,28 @@ import { useRouter } from "next/router";
 
 export const technology = [
   {
-    id: 1,
-    title: "home",
+    id: 2,
+    title: "About",
     path: "/",
   },
   {
-    id: 2,
-    title: "about",
-    path: "/about",
-  },
-  {
     id: 3,
-    title: "projects",
+    title: "Projects",
     path: "/projects",
   },
   {
     id: 4,
-    title: "blog",
+    title: "Blog",
     path: "/blog",
   },
 ];
 
 export default function Header() {
-  const logo = require("../public/img/frame.png");
   const router = useRouter();
   return (
-    <nav className="flex justify-between p-4 items-center  w-full max-w-4xl">
-      <Link href="/">
-        <Image src={logo} alt="cmdr" className="w-8 " />
-      </Link>
-
-      <div className="flex flex-col justify-center items-center w-full max-w-4xl">
-        <nav>
+    <nav className="flex justify-center  items-center w-full text-md">
+      <div className="flex  justify-between p-4 pt-8 items-center w-full max-w-2xl">
+        <div>
           <ul className="flex">
             {technology.map((item) => (
               <Link
@@ -44,20 +34,23 @@ export default function Header() {
                 key={item.id}
                 className={
                   item.path == router.pathname
-                    ? "cursor-pointer p-2 mr-2 border-b-2 border-orange-400"
-                    : "cursor-pointer p-2 mr-2 border-none"
+                    ? "cursor-pointer mr-4 text-white"
+                    : "cursor-pointer mr-4 border-none"
                 }
               >
                 {item.title}
               </Link>
             ))}
           </ul>
-        </nav>
-      </div>
+        </div>
 
-      <a target="_blank" rel="noreferrer" href="https://github.com/ArunGovil">
-        <p className="font-medium text-sm hover:text-yellow-400">Resume</p>
-      </a>
+        <div
+          onClick={() => console.log("test")}
+          className="bg-opacity-50 rounded-lg cursor-pointer flex"
+        >
+          <p>Resume</p>
+        </div>
+      </div>
     </nav>
   );
 }

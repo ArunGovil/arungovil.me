@@ -7,6 +7,7 @@ export { default as About } from "./About";
 //cards
 export { default as ProjectCard } from "./ProjectCard";
 export { default as BlogCard } from "./BlogCard";
+export { default as IntroCard } from "./IntroCard";
 
 //components
 export { default as Icon } from "./Icon";
