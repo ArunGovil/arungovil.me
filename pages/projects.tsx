@@ -2,7 +2,6 @@ import Head from "next/head";
 import { ProjectCard } from "../components";
 import AppLayout from "../layouts";
 import { ProjectsData } from "../content/Projects";
-import { BlogsData } from "../content/Blogs";
 
 export default function Projects() {
   return (

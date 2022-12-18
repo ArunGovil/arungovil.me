@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { About, Hero } from "../components";
+import { About } from "../components";
 import AppLayout from "../layouts";
 
 export default function App() {
