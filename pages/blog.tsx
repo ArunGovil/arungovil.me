@@ -13,7 +13,7 @@ export default function Blog() {
       </Head>
       <main className="flex flex-col items-center">
         <AppLayout showSearch={false}>
-          <div className="flex flex-col justify-center p-4 w-full max-w-3xl mt-12">
+          <div className="flex flex-col justify-center p-4 w-full max-w-2xl mt-12">
             <p className="text-2xl">Blogs</p>
             <div className="mt-4 grid grid-cols-1 gap-4">
               {BlogsData.map((item) => {
@@ -23,7 +23,6 @@ export default function Blog() {
                     title={item.title}
                     description={item.description}
                     url={item.url}
-                    icon={item.icon}
                   />
                 );
               })}
