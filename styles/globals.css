@@ -19,14 +19,9 @@ body {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #000;
+  scrollbar-color: #0d1117;
 }
 
 *::-webkit-scrollbar {
-  width: 15px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #000;
-  border-radius: 5px;
+  display: none;
 }
