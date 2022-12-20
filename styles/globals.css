@@ -1,15 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
 html,
 body {
   padding: 0;
   margin: 0;
   background-color: #0d1117;
-  font-family: "EB Garamond", serif;
+  font-family: "Rubik", sans-serif;
   color: #c9d1d9;
 }
 
@@ -24,4 +24,8 @@ body {
 
 *::-webkit-scrollbar {
   display: none;
+}
+
+a:hover {
+  color: #fff;
 }

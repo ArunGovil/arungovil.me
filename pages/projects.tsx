@@ -23,6 +23,7 @@ export default function Projects() {
                     title={item.title}
                     description={item.description}
                     url={item.url}
+                    icon={item.icon}
                   />
                 );
               })}

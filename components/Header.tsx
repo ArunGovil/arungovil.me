@@ -16,8 +16,8 @@ export const technology = [
   },
   {
     id: 4,
-    title: "Blog",
-    path: "/blog",
+    title: "Posts",
+    path: "/posts",
   },
 ];
 
