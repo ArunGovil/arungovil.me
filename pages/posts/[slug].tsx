@@ -66,7 +66,7 @@ export default function Post(props: {
             className="max-w-2xl p-6 h-auto w-full"
           />
           <div
-            className="flex flex-col justify-center pl-6 pr-6 w-full max-w-2xl mt-2"
+            className="markdown"
             dangerouslySetInnerHTML={{ __html: marked(props.content) }}
           />
         </AppLayout>

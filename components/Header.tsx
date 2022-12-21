@@ -5,12 +5,10 @@ import { useRouter } from "next/router";
 
 export const technology = [
   {
-    id: 2,
     title: "Projects",
     path: "/projects",
   },
   {
-    id: 3,
     title: "Posts",
     path: "/posts",
   },
@@ -25,7 +23,7 @@ export default function Header() {
           <ul className="flex">
             <Link
               href="/"
-              key="1"
+              key="About"
               className={
                 router.pathname === "/"
                   ? "cursor-pointer mr-4 text-white"
@@ -37,7 +35,7 @@ export default function Header() {
             {technology.map((item) => (
               <Link
                 href={item.path}
-                key={item.id}
+                key={item.title}
                 className={
                   router.pathname.includes(item.path)
                     ? "cursor-pointer mr-4 text-white"

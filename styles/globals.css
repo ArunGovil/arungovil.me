@@ -4,6 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .markdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    max-width: 42rem;
+    margin-top: 0.5rem;
+  }
+  .markdown a {
+    color: #38bdf8;
+  }
+  .markdown a:hover {
+    color: #61dafb;
+  }
+  .markdown p {
+    margin-bottom: 1.5em;
+  }
+}
+
 @layer base {
   h1 {
     @apply text-2xl font-bold;
@@ -50,7 +72,6 @@ pre {
   border-radius: 4px;
   padding: 1em;
   overflow-x: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   background-color: #161b22;
 }

@@ -19,7 +19,7 @@ export default function Projects() {
               {ProjectsData.map((item) => {
                 return (
                   <ProjectCard
-                    key={item.id}
+                    key={item.title}
                     title={item.title}
                     description={item.description}
                     url={item.url}
