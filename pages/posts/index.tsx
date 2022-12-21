@@ -55,13 +55,13 @@ export default function Blog(props: {
             <p className="text-2xl">Posts</p>
             <div className="mt-4 grid grid-cols-1 gap-4">
               {props.posts.map(
-                ({ slug, frontMatter: { title, description } }) => (
+                ({ slug, frontMatter: { title, description, thumbnail } }) => (
                   <PostCard
                     key={slug}
                     title={title}
                     description={description}
                     url={slug}
-                    icon={"empty"}
+                    icon={thumbnail}
                   />
                 )
               )}

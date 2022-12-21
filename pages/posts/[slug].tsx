@@ -48,20 +48,25 @@ export default function Post(props: {
   return (
     <div>
       <Head>
-        <title>Posts / Welcome</title>
+        <title>Posts / {props.frontMatter.title}</title>
         <meta name="description" content="jack of all commands" />
         <link rel="icon" href="/img/frame.png" />
       </Head>
       <main className="flex flex-col items-center">
         <AppLayout showSearch={false}>
-          {/* <Image
-            src={props.frontMatter.thumbnail}
+          <div>
+            <h1 className="mt-4 text-center">{props.frontMatter.title} </h1>
+            <p className="text-sm mt-1 text-center font-thin text-gray-400">
+              {props.frontMatter.date} / {props.frontMatter.topic}
+            </p>
+          </div>
+          <img
+            src={props.frontMatter.cover}
             alt={props.frontMatter.title}
-            width="64"
-            height="64"
-          /> */}
+            className="max-w-2xl p-6 h-auto w-full"
+          />
           <div
-            className="flex flex-col justify-center p-4 w-full max-w-2xl mt-12"
+            className="flex flex-col justify-center pl-6 pr-6 w-full max-w-2xl mt-2"
             dangerouslySetInnerHTML={{ __html: marked(props.content) }}
           />
         </AppLayout>
