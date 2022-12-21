@@ -4,6 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  h2 {
+    @apply text-xl font-semibold;
+  }
+  h3 {
+    @apply text-lg font-semibold;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -11,6 +23,10 @@ body {
   background-color: #0d1117;
   font-family: "Rubik", sans-serif;
   color: #c9d1d9;
+}
+
+p {
+  line-height: 1.6em;
 }
 
 * {
@@ -28,4 +44,12 @@ body {
 
 a:hover {
   color: #fff;
+}
+
+pre {
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #161b22;
 }

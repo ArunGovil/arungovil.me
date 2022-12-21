@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="flex flex-col p-4 w-full max-w-2xl mt-12">
       <p className="text-2xl">Developer | Designer | Tinkerer</p>
-      <p className="mt-4 leading-7">
+      <p className="mt-4">
         I&apos;m a hobbyist software developer with love for minimalist design
         and meaningful experience.
         <br />
