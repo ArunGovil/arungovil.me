@@ -44,7 +44,6 @@ export default function Post(props: {
   slug: string;
   content: string;
 }) {
-  console.log("test");
   return (
     <div>
       <Head>

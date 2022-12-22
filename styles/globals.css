@@ -24,6 +24,17 @@
   .markdown p {
     margin-bottom: 1.5em;
   }
+  .markdown ul {
+    list-style: disc;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  .markdown ol {
+    margin-left: 1em;
+    list-style: decimal;
+    margin-bottom: 1.5em;
+  }
 }
 
 @layer base {
