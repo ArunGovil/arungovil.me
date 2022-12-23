@@ -18,45 +18,45 @@ The tutorial can be split into 3 different section namely, EC2 Setup, Local envi
 
 1. First thing first open your EC2 console and launch a new instance.
 
-2. In the server configuration, select Ubuntu server with T2 micro instance.
+2. For the server configuration, you can select Ubuntu server with T2 micro instance.
 
-3. In the SSH section, generate a new SSH key and store it locally for later.
+3. In the SSH section, you can generate a new SSH key, which you can download and keep it locally for later use.
 
-4. In the network setting, allow ssh and https connections so that we can access our instance through an SSH connection afterwards.
+4. The SSH section is followed by network part, where we will allow ssh and https connections so that we can access your EC2 instance through an SSH connection afterwards, as well as accept http requests to our server.
 
 5. Finally select launch instance and your instance will be ready to go.
 
-6. You can select, view all instance option from redirected screen to see all active your instances.
+6. From the redirected page, you can select view all instance option to see all your active your instances.
 
-7. From the instance details table, copy the public IPV4 address of the new instance and keep it for local use.
+7. From the instance details table, you can copy the public IPV4 address which will come in use sooner.
 
-8. Now open terminal in client computer and navigate to the folder containing ssh file (.pem)
+8. Now open terminal in client computer and navigate to the folder containing ssh file (.pem). In the folder run the following code to access your EC2 instance over an SSH connection.
 
 ```bash
 ssh -i <PEM_FILE_NAME> OPERATING_SYSTEM@SERVER_IPV4_ADDRESS
 ```
 
-9. In case there is a permission denied issue, try the following command to give proper permissions for the user
+9. In case there is a permission denied issue, try the following command to give proper permissions for the user.
 
 ```bash
 chmod 400 <PEM_FILE_NAME>
 ```
 
-10. On success, you will be logged in to the EC2 instance, and your terminal name will be replaced by Instance name. Jusst to keep packages updated, run the following commands: (in case of stopping the ssh connection, simply type exit in the terminal)
+10. On success, you will be logged in to the EC2 instance, and your terminal name will be replaced by Instance name. Just to keep packages updated, run the following commands: (in case you need to terminate the SSH connection, simply type exit in the terminal)
 
 ```bash
 sudo apt update
 sudo apt upgrade
 ```
 
-11. Now, we can install nodejs by using the following commands:
+11. Now, you need to install nodejs by using the following commands:
 
 ```
 curl -s https://deb.nodesource.com/setup_16.x | sudo bash
 sudo apt install nodejs -y
 ```
 
-12. In case if the installation fails, as an alternate method we can use nvm to install nodejs with the following code;
+12. In case if the installation fails, as an alternate method you can use nvm to install nodejs with the following code;
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
@@ -67,20 +67,20 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install --lts
 ```
 
-This will install the latest lts version of nodejs on our ec2 instance.
+This will install the latest lts version of nodejs on you ec2 instance.
 
-13. As an optional step, we are installing pm2 package maanger to manage nodejs process
+13. As an optional step, you may install pm2 package manager to manage and overview nodejs processes.
 
 ```
 sudo npm install -g pm2
 ```
 
-14. At this stage, nodejs is ready to run, now we can start initializing our first server using Express. We can clone one of our express app to continue.
+14. At this stage, nodejs is ready to run, now you can start initializing our first server using Express. You can clone one of your express app to continue. Here, I'm cloning a sample Express app available in my github.
 
 ```
 git clone https://github.com/ArunGovil/ExpressLibrary.git
-cd ExpressLibrary | yarn
-node index.js
+cd ExpressLibrary; yarn install
+yarn dev
 ```
 
 15. To expose our app to public use, we will setup nginx reverse proxy. To install nginx, run;
@@ -97,17 +97,17 @@ sudo apt install nginx
 18. Move in to the nginx folder first using and create a file called config.conf.
 
 ```
-cd /etc/nginx
-touch config.cong
+cd /etc/nginx/conf.d
+touch config.conf
 ```
 
 19. To edit the config.conf file, we will use nano text editor
 
 ```
-nano nginx.conf
+nano config.conf
 ```
 
-In the editor paste the following code snippet
+In the editor paste the following code snippet, make sure the port number is same as in your Express app, in this case 3000.
 
 ```
 server {
@@ -118,10 +118,14 @@ location / {
 }
 ```
 
-20. Finally, restart the nginx server and our api will be live.
+20. Finally, restart the nginx server and run the express app and our api will be live.
 
 ```
 sudo service nginx restart
+```
+
+```
+cd ExpressLibrary; yarn dev
 ```
 
 Thats it, you have successfully deployed your express api to Amazon EC2 service. Now you can start accessing you api across various platforms endpoints available on top of your public ip address.
