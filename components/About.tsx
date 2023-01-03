@@ -1,10 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function About() {
   return (
     <div className="flex flex-col p-4 w-full max-w-2xl mt-12">
-      <p className="text-2xl">Developer | Designer | Tinkerer</p>
+      <p className="text-2xl">🧱 Developer 💡 Designer ⚛️ Tinkerer</p>
       <p className="mt-4">
         I&apos;m a hobbyist software developer with love for minimalist design
         and meaningful experience.
@@ -19,8 +18,8 @@ export default function About() {
         technologies.
         <br />
         <br />
-        For most of the design, I use Figma and Photopea. Apart from coding, I
-        love to sleep, read and explore new stuff going around!
+        For most of the design, I use Figma and Photopea. Aside from all of
+        these, I love to sleep, read and explore new stuff going around!
       </p>
       <p className="mt-8">
         Find me on <a href="https://github.com/ArunGovil">GitHub,</a>
