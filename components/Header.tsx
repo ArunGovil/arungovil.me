@@ -17,7 +17,7 @@ export const technology = [
 export default function Header() {
   const router = useRouter();
   return (
-    <nav className="flex justify-center  items-center w-full text-md sticky top-0 backdrop-blur-sm">
+    <nav className="flex justify-center z-10 items-center w-full text-md sticky top-0 backdrop-blur-sm">
       <div className="flex  justify-between p-6 items-center w-full max-w-2xl">
         <div>
           <ul className="flex">
