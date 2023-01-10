@@ -51,7 +51,7 @@ export default function Blog(props: {
       </Head>
       <main className="flex flex-col items-center">
         <AppLayout showSearch={false}>
-          <div className="flex flex-col justify-center p-4 w-full max-w-2xl mt-12">
+          <div className="flex min-h-[70vh] flex-col justify-start p-4 w-full max-w-2xl mt-12">
             <p className="text-2xl">Posts</p>
             <div className="mt-4 grid grid-cols-1 gap-4">
               {props.posts.map(

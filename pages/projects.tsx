@@ -13,7 +13,7 @@ export default function Projects() {
       </Head>
       <main className="flex flex-col items-center">
         <AppLayout showSearch={false}>
-          <div className="flex flex-col justify-center p-4 w-full max-w-2xl mt-12">
+          <div className="flex flex-col justify-center p-4 w-full max-w-2xl min-h-[70vh] mt-12">
             <p className="text-2xl">Projects</p>
             <div className="mt-4 grid grid-cols-1 gap-4">
               {ProjectsData.map((item) => {

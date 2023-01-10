@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="flex flex-col p-4 w-full max-w-2xl mt-12">
+    <div className="flex flex-col p-4 w-full max-w-2xl min-h-[70vh] mt-12">
       <p className="text-2xl">🧱 Developer 💡 Designer ⚛️ Tinkerer</p>
       <p className="mt-4">
         I&apos;m a hobbyist software developer with love for minimalist design
