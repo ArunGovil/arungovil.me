@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="flex flex-col p-4 w-full max-w-2xl min-h-[70vh] mt-12">
+    <div className="flex flex-col p-4 w-full max-w-2xl min-h-[65vh] mt-12">
       <p className="text-2xl">🧱 Developer 💡 Designer ⚛️ Tinkerer</p>
       <p className="mt-4">
         I&apos;m a hobbyist software developer with love for minimalist design
@@ -12,14 +12,14 @@ export default function About() {
         Currently working at{" "}
         <a href="https://www.strebentechnik.com">Streben</a>, where I&apos;m
         actively involved in frontend development for web and mobile using
-        various Javascript frameworks. Apart from that, most of my time is spend
+        various Javascript frameworks. Apart from work, most of my time is spend
         on
         <Link href="/projects"> personal projects</Link> and exploring new
         technologies.
         <br />
         <br />
-        For most of the design, I use Figma and Photopea. Aside from all of
-        these, I love to sleep, read and explore new stuff going around!
+        For most of the design, I use Figma and Photopea. Aside all of these, I
+        love to sleep, read and explore new stuff going around!
       </p>
       <p className="mt-8">
         Find me on <a href="https://github.com/ArunGovil">GitHub,</a>
