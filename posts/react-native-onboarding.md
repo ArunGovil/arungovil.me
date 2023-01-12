@@ -1,6 +1,6 @@
 ---
 title: "1 Minute React Native Onboarding Screen"
-date: "21-12-2022"
+date: "2022-12-21"
 description: "The tutorial helps you setup an onboarding screen in one minute"
 topic: "React Native"
 thumbnail: "reactjs"

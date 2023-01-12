@@ -1,7 +1,7 @@
 ---
 title: "Setting up an Express app on Amazon EC2"
-date: "22-12-2022"
-description: "The posts explains steps to set up an Express app on Amazon EC2"
+date: "2022-12-22"
+description: "The posts explains steps to setup an Express app on Amazon EC2"
 topic: "Amazon EC2"
 thumbnail: "aws"
 cover: "https://images.pexels.com/photos/833192/pexels-photo-833192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
