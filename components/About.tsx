@@ -23,7 +23,7 @@ export default function About() {
       </p>
       <p className="mt-8">
         Find me on <a href="https://github.com/ArunGovil">GitHub,</a>
-        <a href="https://twitter.com/be_like_arun"> Twitter,</a>
+        <a href="https://twitter.com/aarungovil"> Twitter,</a>
         <a href="https://www.linkedin.com/in/arungovil/">
           {" "}
           LinkedIn
