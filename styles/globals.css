@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +16,7 @@
     margin-top: 0.5rem;
   }
   .markdown a {
-    color: #f9cb28;
+    color: #ffffff;
   }
   .markdown a:hover {
     color: #61dafb;
@@ -53,8 +53,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #0d1117;
-  font-family: "Rubik", sans-serif;
+  background-color: #131312;
+  font-family: "Inter", sans-serif;
   color: #c9d1d9;
 }
 
