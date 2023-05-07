@@ -9,7 +9,7 @@ My personal NextJS webspace with Markdown blog
 
 ## How to
 
-By [forking](https://github.com/ArunGovil/arungovil.me/fork) the repo, you can have a similar personal website for yourself within no time. Once forked, you can deploy the repo to any static serving services like [Netlify](https://netlify.com) of [Vercel](https://vercel.com) and your site will be live on the internet.
+By [forking](https://github.com/ArunGovil/arungovil.me/fork) the repo, you can have a similar personal website for yourself within no time. Once forked, you can deploy the repo to any static serving services like [Netlify](https://netlify.com) or [Vercel](https://vercel.com) and your site will be live on the internet.
 
 ## Made with
 
