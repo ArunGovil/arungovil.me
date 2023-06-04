@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,10 +16,7 @@
     margin-top: 0.5rem;
   }
   .markdown a {
-    color: #ffffff;
-  }
-  .markdown a:hover {
-    color: #61dafb;
+    color: #fbbf25;
   }
   .markdown p {
     margin-bottom: 1.5em;
@@ -53,9 +50,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #030712;
-  font-family: "Inter", sans-serif;
-  color: #c9d1d9;
+  background-color: #181823;
+  font-family: "Lato", sans-serif;
+  color: #f0f0f0;
 }
 
 p {
@@ -76,7 +73,7 @@ p {
 }
 
 a:hover {
-  color: #fff;
+  color: #fbbf25;
 }
 
 pre {
@@ -84,5 +81,5 @@ pre {
   padding: 1em;
   overflow-x: auto;
   margin-bottom: 1.5em;
-  background-color: #161b22;
+  background-color: #03001C;
 }
