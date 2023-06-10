@@ -3,7 +3,7 @@ My personal NextJS webspace with Markdown blog
 </p>
 <h4 align="center"> 
 <a href="https://arungovil.me/">https://arungovil.me</a>
- </h4> 
+ </h4>
 
 ---
 
@@ -13,11 +13,9 @@ By [forking](https://github.com/ArunGovil/arungovil.me/fork) the repo, you can h
 
 ## Made with
 
-- NextJS
+- Nuxt 3
 - TailwindCSS
-- Markdown
 - Netlify
-
 
 ## Running locally
 
