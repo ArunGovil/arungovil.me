@@ -16,7 +16,7 @@
     margin-top: 0.5rem;
   }
   .markdown a {
-    color: #fbbf25;
+    color: #ffffff;
   }
   .markdown p {
     margin-bottom: 1.5em;
@@ -73,7 +73,7 @@ p {
 }
 
 a:hover {
-  color: #fbbf25;
+  color: #ffffff;
 }
 
 pre {
