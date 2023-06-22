@@ -10,9 +10,8 @@ export default function About() {
         <br />
         <br />
         Currently working at{" "}
-        <a href="https://www.strebentechnik.com">Streben</a>, where I&apos;m
-        actively involved in frontend development for web and mobile using
-        various Javascript frameworks. Apart from work, most of my time is spend
+        <a href="https://www.unifize.com">Unifize</a>, where I&apos;m
+        actively involved in frontend development of the Unifize web and mobile application. Apart from work, most of my time is spend
         on
         <Link href="/projects"> personal projects</Link> and exploring new
         technologies.
