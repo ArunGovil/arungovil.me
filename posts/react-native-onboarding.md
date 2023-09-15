@@ -7,7 +7,7 @@ thumbnail: "reactjs"
 cover: "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg"
 ---
 
-I have been thinking about writing down my learning for a very long time now. Although I have wrote freelance articles in the past, the delay was real. But today I have decided to write down the very first post, starting with an introduction to one on my react native packages which I recently released, i.e [React Native Flatboard](https://www.npmjs.com/package/react-native-flatboard).
+I have been thinking about writing down my learning for a very long time now. Although I have wrote freelance articles in the past, the delay was real. Nonetheless, today I'm introducing you to one on my react native packages which I recently released, i.e [React Native Flatboard](https://www.npmjs.com/package/react-native-flatboard).
 
 React Native Flatboard is a super light weight, flatlist based onboarding screen for react native apps. With this article, you will be able to set up a fully functional onboarding screen for your React Native app in less than a minute.
 

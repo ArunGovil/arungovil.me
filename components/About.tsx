@@ -9,16 +9,15 @@ export default function About() {
         and meaningful experience.
         <br />
         <br />
-        Currently working at{" "}
-        <a href="https://www.unifize.com">Unifize</a>, where I&apos;m
-        actively involved in frontend development of the Unifize web and mobile application. Apart from work, most of my time is spend
-        on
-        <Link href="/projects"> personal projects</Link> and exploring new
-        technologies.
+        Currently working at <a href="https://www.unifize.com">Unifize</a>,
+        where I&apos;m actively involved in frontend development of the Unifize
+        web and mobile apps. Apart from work, most of my time is spend on
+        <Link href="/projects"> personal projects</Link> and roaming around the
+        web.
         <br />
         <br />
         For most of the design, I use Figma and Photopea. Aside all of these, I
-        love to sleep, read and explore new stuff going around!
+        love to sleep, read and share memes on existential crisis!
       </p>
       <p className="mt-8">
         Find me on <a href="https://github.com/ArunGovil">GitHub,</a>
@@ -27,7 +26,7 @@ export default function About() {
           {" "}
           LinkedIn
         </a> <br /> Mail me at{" "}
-        <a href="mailto:arungovil@proton.me">arungovil@duck.com.</a>
+        <a href="mailto:arungovil@duck.com">arungovil@duck.com.</a>
       </p>
     </div>
   );
