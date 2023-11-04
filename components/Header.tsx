@@ -14,6 +14,10 @@ export const technology = [
     title: "Work",
     path: "/work",
   },
+  {
+    title: "Photos",
+    path: "/photos",
+  },
 ];
 
 export default function Header() {
