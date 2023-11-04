@@ -64,7 +64,7 @@ export default function WorkCard({
           <div className="relative rounded-md h-auto flex items-center px-4 mb-4 text-sm text-slate-400">
             <ul>
               {experience.map((item) => (
-                <li key={item} className={experience.length > 1 && "pb-1"}>
+                <li key={item} className={experience.length > 1 ? "pb-1" : ""}>
                   {experience.length > 1 ? "-" : ""} <span> </span> {item}
                 </li>
               ))}
