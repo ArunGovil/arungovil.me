@@ -7,5 +7,6 @@ export { default as About } from "./About";
 export { default as ProjectCard } from "./ProjectCard";
 export { default as PostCard } from "./PostCard";
 export { default as WorkCard } from "./WorkCard";
+export { default as PhotoCard } from "./PhotoCard";
 
 //components
