@@ -7,7 +7,7 @@ interface WorkCardProps {
   url: string;
   logo: string;
   year: string;
-  experience: Array;
+  experience: Array<string>;
 }
 export default function WorkCard({
   title,
