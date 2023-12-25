@@ -1,9 +1,9 @@
 <p align="center">
-My personal NextJS webspace with Markdown blog
+My personal website with markdown blog
 </p>
 <h4 align="center"> 
 <a href="https://arungovil.me/">https://arungovil.me</a>
- </h4> 
+ </h4>
 
 ---
 
@@ -13,19 +13,17 @@ By [forking](https://github.com/ArunGovil/arungovil.me/fork) the repo, you can h
 
 ## Made with
 
-- NextJS
-- TailwindCSS
+- ReactJS
 - Markdown
-- Netlify
-
+- Vercel
 
 ## Running locally
 
 Once the repo is cloned to your local device, you can run:
 
 ```sh
-yarn install
-yarn dev
+npm i
+npm run dev
 
 ```
 
